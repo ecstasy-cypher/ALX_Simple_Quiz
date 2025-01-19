@@ -9,15 +9,15 @@ function checkAnswer() {
 
 function checkAnswer() {
   const correctAnswer = "4"; 
-  const selectedAnswer = document.querySelector('input[name="quiz"]:checked').value; 
+  const userAnswer = document.querySelector('input[name="quiz"]:checked').value; 
   // ... rest of the function
 }
 
 function checkAnswer() {
   const correctAnswer = "4"; 
-  const selectedAnswer = document.querySelector('input[name="quiz"]:checked').value; 
+  const userAnswer = document.querySelector('input[name="quiz"]:checked').value; 
 
-  if (selectedAnswer === correctAnswer) {
+  if (userAnswer === correctAnswer) {
       document.getElementById('feedback').textContent = "Correct! Well done.";
   } else {
       document.getElementById('feedback').textContent = "That's incorrect. Try again!";
